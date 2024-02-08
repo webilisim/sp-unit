@@ -1,0 +1,6 @@
+build/generated/source/buildConfig/debug/net/webilisim/sp-unit/BuildConfig.java
+build/
+src/main/bin/
+src/main/gen/
+/local.properties
+/gradle.properties
