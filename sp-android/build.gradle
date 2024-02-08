@@ -24,8 +24,8 @@ repositories {
 }
 
 android {
-    compileSdkVersion 34
-    namespace = "net.webilisim.spunit"
+    compileSdk 34
+    namespace = "net.webilisim.sp-unit"
     defaultConfig {
         minSdkVersion 16
         targetSdkVersion 34
@@ -101,7 +101,7 @@ publishing {
         release(MavenPublication) {
 
             artifactId = 'sp-android'
-            groupId = 'net.webilisim.spunit'
+            groupId = 'net.webilisim.sp-unit'
             version = '1.0.1'
             artifact("$buildDir/outputs/aar/sp-android-release.aar")
 
