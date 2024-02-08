@@ -84,13 +84,13 @@ class SDPFactory extends DefaultTask {
     }
 }
 
-tasks.register('createSDP', SDPFactory) {
+tasks.register('createSP', SDPFactory) {
 }
 
 //uncomment next line to edit values
-//preBuild.dependsOn createSDP
+//preBuild.dependsOn createSP
 
-createSDP{
+createSP{
     unit = "sp"
     positiveMax = 600//change to 600 or any other value if needed
     negativeMax = 60//change to 600 or any other value if needed
